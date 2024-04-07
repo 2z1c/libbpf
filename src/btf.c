@@ -4937,6 +4937,7 @@ struct btf *btf__load_vmlinux_btf(void)
 		"/usr/lib/debug/boot/vmlinux-%1$s",
 		"/usr/lib/debug/boot/vmlinux-%1$s.debug",
 		"/usr/lib/debug/lib/modules/%1$s/vmlinux",
+		"/data/vmlinux.btf",
 	};
 	char path[PATH_MAX + 1];
 	struct utsname buf;
